@@ -1,7 +1,8 @@
 # questionnaire
 
 A program to ask questions on the command line and collect the results in
-JSON files.
+JSON files. Questions and answers are defined in a JSON file. The Results are
+collected in a JSON file as well.
 
 This is not a library.
 
