@@ -199,6 +199,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "questionnaire"
+version = "0.1.0"
+dependencies = [
+ "dialoguer",
+ "dirs",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -287,16 +297,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4a83fa3702a688b9359eccba92d153ac33fd2e8462f9e0e3fdf155239ea7792e"
 dependencies = [
  "winapi",
-]
-
-[[package]]
-name = "review"
-version = "0.1.0"
-dependencies = [
- "dialoguer",
- "dirs",
- "serde",
- "serde_json",
 ]
 
 [[package]]

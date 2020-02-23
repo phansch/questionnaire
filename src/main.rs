@@ -5,7 +5,7 @@ use std::collections::HashMap;
 use std::time::SystemTime;
 use std::path::PathBuf;
 
-use review::Question;
+use questionnaire::Question;
 
 fn main() {
     let filename = env::args().nth(1).expect("Need to provide a JSON file as first argument");
