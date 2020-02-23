@@ -70,7 +70,7 @@ jobs:
         run: |
           strip target/release/${{ matrix.bin }}
           cd target/release
-          tar czvf ../../../${{ matrix.name }} ${{ matrix.bin }}
+          tar czvf ../../${{ matrix.name }} ${{ matrix.bin }}
           cd -
 
       - name: Publish
