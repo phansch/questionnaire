@@ -200,7 +200,7 @@ dependencies = [
 
 [[package]]
 name = "questionnaire"
-version = "0.3.1"
+version = "0.3.2-alpha.0"
 dependencies = [
  "dialoguer",
  "dirs",
