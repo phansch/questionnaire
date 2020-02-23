@@ -60,3 +60,9 @@ Where `questions.json` has to have the following structure:
     }
 ]
 ```
+
+## Release process
+
+Use `cargo release` to release a new version. This will push a new git tag and
+trigger the appropriate GitHub Action workflow that in turn uploads a release
+artifiact.

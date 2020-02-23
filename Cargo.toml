@@ -1,8 +1,11 @@
 [package]
-name = "review"
+name = "questionnaire"
 version = "0.1.0"
 authors = ["Philipp Hansch <dev@phansch.net>"]
 edition = "2018"
+
+# Don't want this on crates.io for now.
+publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
